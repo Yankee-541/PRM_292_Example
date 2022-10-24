@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MainActivity</string>
+    <string name="About"> About_Page</string>
+    <string name="edtHint"> Enter your password</string>
+    <string name="AboutUs">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry of Lorem Ipsum</string>
+    <string name="hint_hInIn">Enter your height(In in)</string>
+    <string name="hint_hInFl">Enter your height(In Fl)</string>
+    <string name="edtWeight"> Enter your weight</string>
+    <string name="button">Button</string>
+</resources>

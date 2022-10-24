@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/llMain"
+    android:padding="11dp"
+    android:background="@color/fb"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/edtW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/edtWeight" />
+
+    <EditText
+        android:id="@+id/edtH1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/hint_hInFl" />
+
+    <EditText
+        android:id="@+id/edtH2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/hint_hInIn" />
+
+    <Button
+        android:id="@+id/btCalculate"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="55dp"
+        android:text="Result"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
