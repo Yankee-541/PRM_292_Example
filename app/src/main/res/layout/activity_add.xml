@@ -56,7 +56,7 @@
         android:layout_width="90dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/white"
         android:text="add_more"
         android:textSize="10dp"
         android:textStyle="bold"
